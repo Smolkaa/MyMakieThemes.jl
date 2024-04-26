@@ -20,7 +20,7 @@ const FONTSIZE_BIG    = 18
 
 
 #::. load custom colors 
-include(joinpaht(@__DIR__, "colors.jl"))
+include(joinpath(@__DIR__, "colors.jl"))
 
 
 #::. load themes
