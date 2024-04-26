@@ -5,6 +5,7 @@ using CairoMakie
 using Colors
 using ColorSchemes
 using GeoMakie
+using Makie
 
 
 #::. define font paths

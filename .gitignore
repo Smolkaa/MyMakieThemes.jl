@@ -1,0 +1,5 @@
+#::. ignore user-specific files from the IDE
+.vscode
+
+#::. ignore the Julia, autmoatically created Manifest
+Manifest.toml

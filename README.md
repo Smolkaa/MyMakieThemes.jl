@@ -17,6 +17,7 @@ Pkg.add("CairoMakie")
 Pkg.add("Colors")
 Pkg.add("ColorSchemes")
 Pkg.add("GeoMakie")
+Pkg.add("Makie")
 ```
 
 ## Author Information
