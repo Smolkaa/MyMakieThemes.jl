@@ -1,4 +1,4 @@
-module MyCairoMakiethemes
+module MyMakiethemes
 
 #::. import packages
 using CairoMakie
