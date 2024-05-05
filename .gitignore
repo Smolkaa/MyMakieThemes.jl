@@ -3,3 +3,7 @@
 
 #::. ignore the Julia, autmoatically created Manifest
 Manifest.toml
+
+#::. ignore all generated test files
+test/*.png
+test/*.pdf

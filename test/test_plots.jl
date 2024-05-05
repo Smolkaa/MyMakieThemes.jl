@@ -1,0 +1,18 @@
+include(joinpath(@__DIR__, "..", "src", "MyMakieThemes.jl"))
+using CairoMakie, .MyMakieThemes
+set_theme!(MyMakieThemes.default)
+
+
+function test_lines()
+    fig = Figure()
+    ax = Axis(fig[1, 1];
+        xlabel="x", ylabel="y")
+
+    x = -pi:0.01:pi
+    lines!(ax, x, sin.(x))
+    lines!(ax, x, cos.(x))
+    lines!(ax, x, -sin.(x))
+    lines!(ax, x, -cos.(x))
+
+    save(joinpath(@__DIR__, "test_lines.png"), fig)
+end

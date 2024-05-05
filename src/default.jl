@@ -8,7 +8,7 @@ default = Theme(
 
 	Axis = (
 		backgroundcolor = :white,
-	    titlefont       = JM_BOLD, 
+	    titlefont       = JM_BOLD,
 		titlesize       = FONTSIZE_BIG,
 		xlabelfont      = JM_REG,
 		xticklabelfont  = JM_REG,
@@ -18,7 +18,7 @@ default = Theme(
 
 	Axis3 = (
 		backgroundcolor = :white,
-	    titlefont       = JM_BOLD, 
+	    titlefont       = JM_BOLD,
 		titlesize       = FONTSIZE_BIG,
 		xlabelfont      = JM_REG,
 		xticklabelfont  = JM_REG,
@@ -40,13 +40,17 @@ default = Theme(
 	Legend = (
 		labelsize = FONTSIZE_SMALL,
 		labelfont = JM_REG,
-	    titlefont = JM_BOLD, 
+	    titlefont = JM_BOLD,
 	),
 
 	Lines = (
-		color = TUMBlack,
-		linewidth = 1.5,
+        linewidth = 1.5,
 	),
+
+    palette = (
+        color=[TUMBlack, TUMBlue, TUMOrange, TUMBlueLighter, TUMBlueDarker],
+        marker=[]
+    ),
 
 	Text = (
 		font = JM_REG,

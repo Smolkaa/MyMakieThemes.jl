@@ -1,0 +1,8 @@
+# CHANGELOG - MyMakieThemes
+
+## 2024-05-05 - v0.1.1
+
+* update to version v0.1.1
+* added default color cycle to `default` theme to cycle through the main TUM colors first
+* added `CHANGELOG`
+* added a testing script for line plots
