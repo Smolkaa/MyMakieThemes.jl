@@ -7,7 +7,7 @@ Install the package via the Julia package manager:
 ```julia
 using Pkg
 Pkg.add("https://github.com/Smolkaa/MyMakieThemes.jl.git")
-Pkg.up("MyMakieThemes")
+Pkg.update("MyMakieThemes")
 using MyMakieThemes
 ```
 
