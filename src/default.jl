@@ -2,6 +2,7 @@
 #::. DEFINE THEME
 ############################################################################################
 default = Theme(
+    colomap  = ColorSchemes.lipari,
 	font     = JM_REG,
 	fontsize = FONTSIZE_MAIN,
 	size     = (600,400),
