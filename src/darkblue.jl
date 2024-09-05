@@ -2,10 +2,11 @@
 #::. DEFINE THEME
 ############################################################################################
 darkblue = Theme(
-    colomap  = ColorSchemes.lipari,
-	font     = JM_REG,
-	fontsize = FONTSIZE_MAIN,
-	size     = (600,400),
+    backgroundcolor = TUMBlueDarker,
+    colomap         = ColorSchemes.lipari,
+	font            = JM_REG,
+	fontsize        = FONTSIZE_MAIN,
+	size            = (600,400),
 
 	Axis = (
 		backgroundcolor  = TUMBlueDarker,
@@ -53,6 +54,11 @@ darkblue = Theme(
 	Lines = (
         linewidth = 1.5,
 	),
+
+    palette = (
+        color=[:white, TUMBlueLighter, TUMOrange, TUMBlack],
+        marker=[]
+    ),
 
 	Text = (
 		font = JM_REG,

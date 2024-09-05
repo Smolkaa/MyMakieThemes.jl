@@ -1,5 +1,9 @@
 # CHANGELOG - MyMakieThemes
 
+## 2024-09-05 - v0.1.2
+
+* added a new `darkblue` theme, based on the TUM color `TUMBlueDarker` as the background
+
 ## 2024-05-05 - v0.1.1
 
 * update to version v0.1.1
