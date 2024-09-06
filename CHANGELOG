@@ -2,7 +2,9 @@
 
 ## 2024-09-05 - v0.1.2
 
-* added a new `darkblue` theme, based on the TUM color `TUMBlueDarker` as the background
+* added a new `dark` theme, based on the TUM color `TUMBlueDarker` as the background
+* changed both `default` -> `default()` and `dark` -> `dark()` to make them callable
+  * the dark theme has a optional argument to set the background color
 
 ## 2024-05-05 - v0.1.1
 
