@@ -43,6 +43,28 @@ dark(darkcolor=TUMBlueDarker) = Theme(
         topspinecolor    = :white,
 	),
 
+    GeoAxis = (
+		backgroundcolor  = darkcolor,
+        bottomspinecolor = :white,
+        leftspinecolor   = :white,
+        rightspinecolor  = :white,
+	    titlefont        = JM_BOLD,
+		titlesize        = FONTSIZE_BIG,
+        topspinecolor    = :white,
+        xgridcolor       = (:white, 0.15),
+		xlabelcolor      = :white,
+        xlabelfont       = JM_REG,
+        xtickcolor       = :white,
+        xticklabelcolor  = :white,
+		xticklabelfont   = JM_REG,
+        ygridcolor       = (:white, 0.15),
+		ylabelcolor      = :white,
+		ylabelfont       = JM_REG,
+        ytickcolor       = :white,
+        yticklabelcolor  = :white,
+		yticklabelfont   = JM_REG,
+    ),
+
 	Label = (
 		font = JM_REG,
 	),
