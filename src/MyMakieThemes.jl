@@ -29,7 +29,7 @@ include(joinpath(@__DIR__, "mygeoaxis.jl"))
 
 #::. load themes
 include(joinpath(@__DIR__, "default.jl"))
-include(joinpath(@__DIR__, "darkblue.jl"))
+include(joinpath(@__DIR__, "dark.jl"))
 
 
 end
