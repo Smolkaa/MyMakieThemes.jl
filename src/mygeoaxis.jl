@@ -7,9 +7,11 @@ function MyGeoAxis(fig;
     xlabel      = "Longitude in (°)",
     xticks      = -180:45:180,
     xticklabels = ["-180", "-135", "-90", "-45", "0", "45", "90", "135", "180"],
+    xticklabelcolor = :black,
     ylabel      = "Latitude in (°)",
     yticks      = -90:30:90,
     yticklabels = ["-90", "-60", "-30", "0", "30", "60", "90"],
+    yticklabelcolor = :black,
     kwargs...)
 
     # main GeoAxis
@@ -54,7 +56,11 @@ function MyGeoAxis(fig;
     end
     for (i, xtick) in enumerate(xticks)
         xshift = xticks[i] == 0 ? -13 : (xticks[i] > 0 ? -5 : 0)
-        text!(ax2, xtick + xshift, -100; text="$(xticklabels[i])", align=(:right, :bottom))
+        text!(ax2, xtick + xshift, -100;
+            align=(:right, :bottom),
+            color=xticklabelcolor,
+            text="$(xticklabels[i])",
+        )
     end
 
     if length(yticks) != length(yticklabels)
@@ -66,7 +72,9 @@ function MyGeoAxis(fig;
         text!(ax2,
             -320 + 100 * sind(ytick)^6 + xshift,
             ytick + 5 * sind(2 * ytick);
-            text="$(yticklabels[i])", align=(:center, :center))
+            color=yticklabelcolor,
+            text="$(yticklabels[i])", align=(:center, :center),
+        )
     end
 
     return ax
