@@ -2,16 +2,17 @@
 #::. DEFINE AXIS
 ############################################################################################
 function MyGeoAxis(fig;
-    dest        = "+proj=natearth",
-    xgridcolor  = (:black, 0.3),
-    xlabel      = "Longitude in (°)",
-    xticks      = -180:45:180,
-    xticklabels = ["-180", "-135", "-90", "-45", "0", "45", "90", "135", "180"],
-    xticklabelcolor = :black,
-    ylabel      = "Latitude in (°)",
-    yticks      = -90:30:90,
-    yticklabels = ["-90", "-60", "-30", "0", "30", "60", "90"],
-    yticklabelcolor = :black,
+    dest            = "+proj=natearth",
+    xgridcolor      = Makie.current_default_theme()[:Axis][:xgridcolor][],
+    xlabel          = "Longitude in (°)",
+    xticks          = -180:45:180,
+    xticklabels     = ["-180", "-135", "-90", "-45", "0", "45", "90", "135", "180"],
+    xticklabelcolor = Makie.current_default_theme()[:Axis][:xticklabelcolor][],
+    ygridcolor      = Makie.current_default_theme()[:Axis][:ygridcolor][],
+    ylabel          = "Latitude in (°)",
+    yticks          = -90:30:90,
+    yticklabels     = ["-90", "-60", "-30", "0", "30", "60", "90"],
+    yticklabelcolor = Makie.current_default_theme()[:Axis][:yticklabelcolor][],
     kwargs...)
 
     # main GeoAxis
@@ -19,6 +20,7 @@ function MyGeoAxis(fig;
         dest                = dest,
         xgridcolor          = xgridcolor,
         xtickformat         = Makie.automatic,
+        ygridcolor          = ygridcolor,
         ytickformat         = Makie.automatic,
         kwargs...
     )

@@ -34,6 +34,18 @@ default() = Theme(
 		ticklabelsize   = FONTSIZE_SMALL,
 	),
 
+	GeoAxis = (
+		backgroundcolor = :white,
+	    titlefont       = JM_BOLD,
+		titlesize       = FONTSIZE_BIG,
+        xgridcolor      = (:black, 0.3),
+		xlabelfont      = JM_REG,
+		xticklabelfont  = JM_REG,
+        ygridcolor      = (:black, 0.3),
+		ylabelfont      = JM_REG,
+		yticklabelfont  = JM_REG,
+	),
+
 	Label = (
 		font = JM_REG,
 	),
