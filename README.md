@@ -6,7 +6,7 @@ Language.
 Install the package via the Julia package manager:
 ```julia
 using Pkg
-Pkg.add("https://github.com/Smolkaa/MyMakieThemes.jl.git")
+Pkg.add(url="https://github.com/Smolkaa/MyMakieThemes.jl.git")
 Pkg.update("MyMakieThemes")
 using MyMakieThemes
 ```
