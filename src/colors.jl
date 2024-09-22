@@ -9,16 +9,21 @@ TUMBlueLight = colorant"#64A0C8"
 TUMBlueLighter = colorant"#98C6EA"
 TUMOrange = colorant"#E37222"
 
-
+############################################################################################
+#::. OTHER COLORS
+############################################################################################
+PlutoDarkBG = colorant"#1F1F1F"
 
 ############################################################################################
 #::. EXPORT THEME
 ############################################################################################
-export 
-    TUMBlack, 
-    TUMBlue, 
-    TUMBlueDark, 
-    TUMBlueDarker, 
-    TUMBlueLight, 
-    TUMBlueLighter, 
-    TUMOrange
+export
+    TUMBlack,
+    TUMBlue,
+    TUMBlueDark,
+    TUMBlueDarker,
+    TUMBlueLight,
+    TUMBlueLighter,
+    TUMOrange,
+
+    PlutoDarkBG

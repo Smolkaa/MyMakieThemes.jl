@@ -32,6 +32,7 @@ dark(darkcolor=TUMBlueDarker) = Theme(
 
 	Colorbar = (
         bottomspinecolor = :white,
+        labelcolor       = :white,
 		labelfont        = JM_REG,
 		labelsize        = FONTSIZE_MAIN,
         leftspinecolor   = :white,
@@ -95,6 +96,11 @@ dark(darkcolor=TUMBlueDarker) = Theme(
 
 
 ############################################################################################
+#::. SPECIALIZED THEMES
+############################################################################################
+pluto() = dark(PlutoDarkBG)
+
+############################################################################################
 #::. EXPORT THEME
 ############################################################################################
-export dark
+export dark, pluto
