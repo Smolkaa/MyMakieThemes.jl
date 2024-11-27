@@ -3,6 +3,7 @@
 ############################################################################################
 function MyGeoAxis(fig;
     dest            = "+proj=natearth",
+    scaling         = 1,
     xgridcolor      = Makie.current_default_theme()[:Axis][:xgridcolor][],
     xlabel          = "Longitude in (°)",
     xticks          = -180:45:180,
@@ -29,9 +30,9 @@ function MyGeoAxis(fig;
     ylims!(ax, -90, 90)
 
     ax.halign[] = :right
-    ax.height[] = 300
+    ax.height[] = 300*scaling
     ax.valign[] = :top
-    ax.width[] = 500
+    ax.width[] = 500*scaling
     ax.xticks[] = xticks
     ax.xticklabelfont[] = JM_REG
     ax.xticklabelsvisible[] = false
@@ -50,7 +51,7 @@ function MyGeoAxis(fig;
     xlims!(ax2, -340, 275)
     ylims!(ax2, -100, 100)
 
-    ax2.width[] = 525
+    ax2.width[] = 525*scaling
 
     # custom ticks for main axis, plotted in auxiliary axis
     if length(xticks) != length(xticklabels)
