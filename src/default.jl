@@ -57,6 +57,7 @@ default() = Theme(
 	),
 
 	Lines = (
+		joinstyle = :round,
         linewidth = 1.5,
 	),
 

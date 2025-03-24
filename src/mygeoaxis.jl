@@ -3,7 +3,7 @@
 ############################################################################################
 function MyGeoAxis(fig;
     dest            = "+proj=natearth",
-    scaling         = 1,
+    scaling         = 0.9,
     xgridcolor      = Makie.current_default_theme()[:Axis][:xgridcolor][],
     xlabel          = "Longitude in (°)",
     xticks          = -180:45:180,
@@ -43,6 +43,7 @@ function MyGeoAxis(fig;
     # auxiliary axis for labels
     ax2 = Axis(fig[1,1];
         xlabel=xlabel,
+        xtickcolor=xticklabelcolor,
         ylabel=ylabel,
     )
 

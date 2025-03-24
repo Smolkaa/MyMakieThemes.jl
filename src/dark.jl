@@ -77,6 +77,7 @@ dark(darkcolor=TUMBlueDarker) = Theme(
 	),
 
 	Lines = (
+		joinstyle = :round,
         linewidth = 1.5,
 	),
 
