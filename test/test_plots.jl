@@ -6,7 +6,11 @@ set_theme!(MyMakieThemes.default())
 function test_lines()
     fig = Figure()
     ax = Axis(fig[1, 1];
-        xlabel="x", ylabel="y")
+        xlabel="xlabel ", ylabel="y",
+        xlabelfont="Helvet",
+        title="test",
+        titlefont="Helvetica Bold",
+    )
 
     x = -pi:0.01:pi
     lines!(ax, x, sin.(x); label="sin(x)")

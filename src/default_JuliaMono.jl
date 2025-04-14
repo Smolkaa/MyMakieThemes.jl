@@ -1,59 +1,59 @@
 ############################################################################################
 #::. DEFINE THEME
 ############################################################################################
-default() = Theme(
+defaultJuliaMono() = Theme(
     colomap  = ColorSchemes.lipari,
-	font     = "Helvet",
+	font     = JM_REG,
 	fontsize = FONTSIZE_MAIN,
 	size     = (600,400),
 
 	Axis = (
 		backgroundcolor = :white,
-	    titlefont       = "Helvet",
+	    titlefont       = JM_BOLD,
 		titlesize       = FONTSIZE_BIG,
-		xlabelfont      = "Helvet",
-		xticklabelfont  = "Helvet",
-		ylabelfont      = "Helvet",
-		yticklabelfont  = "Helvet",
+		xlabelfont      = JM_REG,
+		xticklabelfont  = JM_REG,
+		ylabelfont      = JM_REG,
+		yticklabelfont  = JM_REG,
 	),
 
 	Axis3 = (
 		backgroundcolor = :white,
-	    titlefont       = "Helvet",
+	    titlefont       = JM_BOLD,
 		titlesize       = FONTSIZE_BIG,
-		xlabelfont      = "Helvet",
-		xticklabelfont  = "Helvet",
-		ylabelfont      = "Helvet",
-		yticklabelfont  = "Helvet",
+		xlabelfont      = JM_REG,
+		xticklabelfont  = JM_REG,
+		ylabelfont      = JM_REG,
+		yticklabelfont  = JM_REG,
 	),
 
 	Colorbar = (
-		labelfont       = "Helvet",
+		labelfont       = JM_REG,
 		labelsize       = FONTSIZE_MAIN,
-		ticklabelfont   = "Helvet",
+		ticklabelfont   = JM_REG,
 		ticklabelsize   = FONTSIZE_SMALL,
 	),
 
 	GeoAxis = (
 		backgroundcolor = :white,
-	    titlefont       = "Helvet",
+	    titlefont       = JM_BOLD,
 		titlesize       = FONTSIZE_BIG,
         xgridcolor      = (:black, 0.3),
-		xlabelfont      = "Helvet",
-		xticklabelfont  = "Helvet",
+		xlabelfont      = JM_REG,
+		xticklabelfont  = JM_REG,
         ygridcolor      = (:black, 0.3),
-		ylabelfont      = "Helvet",
-		yticklabelfont  = "Helvet",
+		ylabelfont      = JM_REG,
+		yticklabelfont  = JM_REG,
 	),
 
 	Label = (
-		font = "Helvet",
+		font = JM_REG,
 	),
 
 	Legend = (
 		labelsize = FONTSIZE_SMALL,
-		labelfont = "Helvet",
-	    titlefont = "Helvet",
+		labelfont = JM_REG,
+	    titlefont = JM_BOLD,
 	),
 
 	Lines = (
@@ -67,7 +67,7 @@ default() = Theme(
     ),
 
 	Text = (
-		font = "Helvet",
+		font = JM_REG,
 	),
 
 	Scatter = (
@@ -79,4 +79,4 @@ default() = Theme(
 ############################################################################################
 #::. EXPORT THEME
 ############################################################################################
-export default
+export defaultJuliaMono
