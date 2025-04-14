@@ -3,6 +3,9 @@
 ## 2025-03-24
 
 - added `joinstyle=:round` attribute to `lines!` plot
+- changed default font to `Helvet`
+- added new `defaultJuliaMono` scheme with the Julia Mono font
+
 
 ## 2024-09-05 - v0.1.2
 
