@@ -8,9 +8,12 @@ using GeoMakie
 using Makie
 
 
-#::. define font paths
+#::. define fonts
 const JM_REG  = joinpath(@__DIR__, "..", "res", "JuliaMono-Regular.ttf")
 const JM_BOLD = joinpath(@__DIR__, "..", "res", "JuliaMono-Bold.ttf")
+
+math(s::String) = rich(s, font="Latin Modern Math Regular")
+export math
 
 
 #::. define sizes
