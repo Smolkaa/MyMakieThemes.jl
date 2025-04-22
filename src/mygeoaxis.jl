@@ -4,16 +4,16 @@
 function MyGeoAxis(fig;
     dest            = "+proj=natearth",
     scaling         = 0.9,
-    xgridcolor      = Makie.current_default_theme()[:Axis][:xgridcolor][],
-    xlabel          = "Longitude in (°)",
+    xgridcolor      = (:black, 0.3), 
+    xlabel          = "Longitude (°)",
     xticks          = -180:45:180,
     xticklabels     = ["-180", "-135", "-90", "-45", "0", "45", "90", "135", "180"],
-    xticklabelcolor = Makie.current_default_theme()[:Axis][:xticklabelcolor][],
-    ygridcolor      = Makie.current_default_theme()[:Axis][:ygridcolor][],
-    ylabel          = "Latitude in (°)",
+    xticklabelcolor = :black,
+    ygridcolor      = (:black, 0.3),
+    ylabel          = "Latitude (°)",
     yticks          = -90:30:90,
     yticklabels     = ["-90", "-60", "-30", "0", "30", "60", "90"],
-    yticklabelcolor = Makie.current_default_theme()[:Axis][:yticklabelcolor][],
+    yticklabelcolor = :black,
     kwargs...)
 
     # main GeoAxis
@@ -34,10 +34,8 @@ function MyGeoAxis(fig;
     ax.valign[] = :top
     ax.width[] = 500*scaling
     ax.xticks[] = xticks
-    ax.xticklabelfont[] = JM_REG
     ax.xticklabelsvisible[] = false
     ax.yticks[] = yticks
-    ax.yticklabelfont[] = JM_REG
     ax.yticklabelsvisible[] = false
 
     # auxiliary axis for labels
