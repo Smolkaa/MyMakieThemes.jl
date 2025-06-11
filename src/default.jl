@@ -2,7 +2,7 @@
 #::. DEFINE THEME
 ############################################################################################
 default() = Theme(
-    colomap  = ColorSchemes.lipari,
+    colormap  = ColorSchemes.lipari,
 	font     = "Helvet",
 	fontsize = FONTSIZE_MAIN,
 	size     = (600,400),
