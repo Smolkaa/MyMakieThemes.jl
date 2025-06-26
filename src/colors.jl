@@ -9,6 +9,10 @@ TUMBlueLight = colorant"#64A0C8"
 TUMBlueLighter = colorant"#98C6EA"
 TUMOrange = colorant"#E37222"
 
+TUMGray80 = colorant"#333333"
+TUMGray50 = colorant"#808080"
+TUMGray20 = colorant"#CCCCCC"
+
 ############################################################################################
 #::. OTHER COLORS
 ############################################################################################

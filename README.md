@@ -21,4 +21,4 @@ Pkg.add("Makie")
 ```
 
 ## Author Information
-Alexander Smolka - _a.smolka@tum.de_
+Alexander Peschel - _a.peschel@tum.de_
