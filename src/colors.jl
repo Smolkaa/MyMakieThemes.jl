@@ -7,6 +7,7 @@ TUMBlueDark = colorant"#005293"
 TUMBlueDarker = colorant"#003359"
 TUMBlueLight = colorant"#64A0C8"
 TUMBlueLighter = colorant"#98C6EA"
+TUMGreen = colorant"#A2AD00"
 TUMOrange = colorant"#E37222"
 
 TUMGray80 = colorant"#333333"
@@ -28,6 +29,7 @@ export
     TUMBlueDarker,
     TUMBlueLight,
     TUMBlueLighter,
+    TUMGreen,
     TUMOrange,
 
     PlutoDarkBG
