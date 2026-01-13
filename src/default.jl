@@ -5,7 +5,7 @@ default() = Theme(
     colormap  = ColorSchemes.lipari,
 	font     = "Helvet",
 	fontsize = FONTSIZE_MAIN,
-	size     = (600,400),
+	size     = (600,330),
 
 	Axis = (
 		backgroundcolor = :white,
@@ -13,13 +13,13 @@ default() = Theme(
 		titlesize       = FONTSIZE_BIG,
 		xgridvisible 	= false,
 		xlabelfont      = "Helvet",
-		xminortickalign = 0.5,
-		xtickalign 		= 0.5,
+		xminortickalign = 1.0,
+		xtickalign 		= 1.0,
 		xticklabelfont  = "Helvet",
 		ygridvisible 	= false,
 		ylabelfont      = "Helvet",
-		yminortickalign = 0.5,
-		ytickalign 		= 0.5,
+		yminortickalign = 1.0,
+		ytickalign 		= 1.0,
 		yticklabelfont  = "Helvet",
 	),
 

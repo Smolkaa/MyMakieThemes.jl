@@ -7,9 +7,7 @@ function test_lines()
     fig = Figure()
     ax = Axis(fig[1, 1];
         xlabel="xlabel ", ylabel="y",
-        xlabelfont="Helvet",
         title="test",
-        titlefont="Helvetica Bold",
     )
 
     x = -pi:0.01:pi
