@@ -1,4 +1,10 @@
-# CHANGELOG - MyMakieThemes
+# CHANGELOG - MyMakieThemes]active
+
+
+## 2026-01-15 - v0.1.2
+
+- added `math` functionality as an extension to `rich`, which uses the Latin Modern Roman
+  Italic font for math text
 
 ## 2025-03-24
 
@@ -6,16 +12,15 @@
 - changed default font to `Helvet`
 - added new `defaultJuliaMono` scheme with the Julia Mono font
 
-
 ## 2024-09-05 - v0.1.2
 
-* added a new `dark` theme, based on the TUM color `TUMBlueDarker` as the background
-* changed both `default` -> `default()` and `dark` -> `dark()` to make them callable
-  * the dark theme has a optional argument to set the background color
+- added a new `dark` theme, based on the TUM color `TUMBlueDarker` as the background
+- changed both `default` -> `default()` and `dark` -> `dark()` to make them callable
+  - the dark theme has a optional argument to set the background color
 
 ## 2024-05-05 - v0.1.1
 
-* update to version v0.1.1
-* added default color cycle to `default` theme to cycle through the main TUM colors first
-* added `CHANGELOG`
-* added a testing script for line plots
+- update to version v0.1.1
+- added default color cycle to `default` theme to cycle through the main TUM colors first
+- added `CHANGELOG`
+- added a testing script for line plots

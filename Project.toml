@@ -1,7 +1,7 @@
 name = "MyMakieThemes"
 uuid = "326ebdea-d4a9-4e37-b19b-9a9704dbfb08"
 authors = ["Alexander Peschel <a.peschel@tum.de>"]
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
