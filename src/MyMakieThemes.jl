@@ -11,6 +11,7 @@ using Makie
 #::. define fonts
 const JM_REG  = joinpath(@__DIR__, "..", "res", "JuliaMono-Regular.ttf")
 const JM_BOLD = joinpath(@__DIR__, "..", "res", "JuliaMono-Bold.ttf")
+const LM_MATH = joinpath(@__DIR__, "..", "res", "latinmodern-math.otf")
 const LMR_ITALIC = joinpath(@__DIR__, "..", "res", "lmroman10-italic.otf")
 
 #::. define font sizes
@@ -19,8 +20,9 @@ const FONTSIZE_MAIN   = 16
 const FONTSIZE_BIG    = 18
 
 #::. extend the RichText functionality
-math(s::String) = rich(s, font=LMR_ITALIC)
-export math
+include(joinpath(@__DIR__, "rich.jl"))
+# math(s::String) = rich(s, font=LMR_ITALIC)
+# export math
 
 #::. load custom colors
 include(joinpath(@__DIR__, "colors.jl"))
