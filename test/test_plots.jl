@@ -6,7 +6,7 @@ set_theme!(MyMakieThemes.default())
 function test_lines()
     fig = Figure()
     ax = Axis(fig[1, 1];
-        xlabel="xlabel ", ylabel="y",
+        xlabel=rich(math("xlabel")), ylabel="y",
         title="test",
     )
 
