@@ -58,7 +58,7 @@ function MyGeoAxis(fig;
     end
     for (i, xtick) in enumerate(xticks)
         # xshift = xticks[i] == 0 ? -5 : (xticks[i] > 0 ? -5 : 0)
-        xshift = xtick >= 0 ? -5 : 0
+        xshift = xtick > 0 ? -5 : 5
         text!(ax2, xtick + xshift, -100;
             align=(:right, :bottom),
             color=xticklabelcolor,
