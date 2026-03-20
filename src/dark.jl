@@ -24,6 +24,7 @@ dark(darkcolor=TUMBlueDarker) = Theme(
         xtickcolor       = :white,
         xticklabelcolor  = :white,
 		xticklabelfont   = "Helvet",
+		xticksmirrored   = true,
         ygridcolor       = (:white, 0.15),
 		ylabelcolor      = :white,
 		ylabelfont       = "Helvet",
@@ -32,6 +33,7 @@ dark(darkcolor=TUMBlueDarker) = Theme(
         ytickcolor       = :white,
         yticklabelcolor  = :white,
 		yticklabelfont   = "Helvet",
+		yticksmirrored   = true,
 	),
 
 	Colorbar = (

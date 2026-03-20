@@ -16,11 +16,13 @@ default() = Theme(
 		xminortickalign = 1.0,
 		xtickalign 		= 1.0,
 		xticklabelfont  = "Helvet",
+		xticksmirrored  = true,
 		ygridvisible 	= false,
 		ylabelfont      = "Helvet",
 		yminortickalign = 1.0,
 		ytickalign 		= 1.0,
 		yticklabelfont  = "Helvet",
+		yticksmirrored  = true,
 	),
 
 	Axis3 = (
